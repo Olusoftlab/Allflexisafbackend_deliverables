@@ -1,4 +1,4 @@
-package language_basics;
+package languagebasics;
 
 @SuppressWarnings("java:S106")
 
