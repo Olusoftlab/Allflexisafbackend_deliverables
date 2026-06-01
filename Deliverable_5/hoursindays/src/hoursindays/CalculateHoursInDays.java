@@ -4,7 +4,7 @@ package hoursindays;
 
 public class CalculateHoursInDays implements CalculateHours {
 
-    public int numberOfDays;
+    private int numberOfDays;
 
     public CalculateHoursInDays() {
 
