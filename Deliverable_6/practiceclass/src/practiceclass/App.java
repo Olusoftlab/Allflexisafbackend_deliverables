@@ -5,5 +5,6 @@ package practiceclass;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+        System.out.println("practicing classes, methods, anonymous methods and lambda");
     }
 }
