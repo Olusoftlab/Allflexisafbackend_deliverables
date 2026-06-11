@@ -27,10 +27,11 @@ public class App {
 
         completeName.getFullName("Olumide", "Adebayo");
 
-       // Anonymous class example
+        // Anonymous class example
 
-       
+        AnonymousClass defineAnonymous = new AnonymousClass();
 
+        defineAnonymous.anonyExample();
 
     }
 
