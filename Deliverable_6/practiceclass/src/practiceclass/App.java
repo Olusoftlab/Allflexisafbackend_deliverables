@@ -33,6 +33,12 @@ public class App {
 
         defineAnonymous.anonyExample();
 
+        // Example of lambda expressions
+
+        Book textBook = new Book("Bold letters");
+
+        textBook.getBoldLetterBook(textBook, (Book book) -> book.bookLetter.equals("Bold letters"));
+
     }
 
 }
