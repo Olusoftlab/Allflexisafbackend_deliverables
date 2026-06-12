@@ -1,5 +1,5 @@
 package practiceclass;
-
+@SuppressWarnings("java:S106")
 
 public class Book {
 
@@ -16,7 +16,7 @@ public class Book {
 
              if (bold.boldLetter(book)){
               
-                System.out.println("the vook has bold letters"); 
+                System.out.println("the book has bold letters"); 
                 
              }else{
 
