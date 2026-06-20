@@ -4,8 +4,8 @@ package primitivetypes;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("practicing primitives");
+
+        // program to reverse a word
 
         String myWord = "Hello World";
 
@@ -29,6 +29,33 @@ public class App {
         String reverseWord = new String(reverseArr);
 
         System.out.println(reverseWord);
+
+        // program to convert from one primitive type to another
+
+        double $dub = 908.7866;
+
+        String $1 = Double.toString($dub);
+
+        System.out.println($1);
+        System.out.println($1.charAt(6));
+
+        long l_num = 66874874747947394L;
+
+        String longString = Long.toString(l_num);
+
+        System.out.println(longString);
+
+        float a = 8.967f;
+
+        String myFloat = Float.toString(a);
+
+        System.out.println(myFloat);
+
+        String myNum = "8876";
+
+        int getNum = Integer.valueOf(myNum);
+
+        System.out.println(getNum);
 
     }
 }
