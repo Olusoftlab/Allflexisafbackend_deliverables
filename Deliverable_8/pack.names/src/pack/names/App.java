@@ -21,26 +21,30 @@ public class App {
         A.getRanking(10, A);
         A.printAwards("Best school in spelling B", "Best footballing school", "Best school in mathematics", A);
 
-       Classroom science=new Classroom("1500ssqm", "Square", 50, 90);
+        Classroom science = new Classroom("1500ssqm", "Square", 50, 90);
 
         System.out.println(science.getTotalMaleStudent() + "Male student");
         System.out.println(science.getTotalFemaleStudent() + "Female student");
-   
+
         science.populationSize(science);
         science.structureCost(500000);
         science.genderStat(science);
 
-      
-         Library myLibrary=new Library("Law", "golden yellow", "3000sqm");
+        Library myLibrary = new Library("Law", "golden yellow", "3000sqm");
 
         System.out.println(myLibrary.getKind());
         myLibrary.myPeriodicals("showbiz magazine");
         myLibrary.categoryBook("law");
         myLibrary.registerStudent(olumild);
         myLibrary.removeStudent(olumild);
-        
 
+        Teacher schoolTeacher = new Teacher("Prof Opoola", "phd", "Male");
 
+        System.out.println(schoolTeacher.getName());
+        schoolTeacher.getCategory("Mathematics");
+        schoolTeacher.getStudentName(olumild);
+        schoolTeacher.registerStudent(olumild);
+        schoolTeacher.scheduleLecture();
 
 
     }
